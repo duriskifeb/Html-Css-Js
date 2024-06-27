@@ -13,7 +13,6 @@
     --secondary-color: #fff;
 }
 
-
 #icon {
     width: 30px;
     cursor: pointer;
@@ -34,6 +33,7 @@ nav ul {
     position: relative;
 }
 
+
 nav {
     width: 84%;
     margin: auto;
@@ -47,6 +47,7 @@ nav {
     width: 100px;
     cursor: pointer;
 }
+ 
 
 nav  ul li {
     display: inline-block;
@@ -57,6 +58,7 @@ nav  ul li {
 nav ul li a {
     text-decoration:  none;
     color: var(--secondary-color);
+    transition: color 0.5s ease;
 }
 
 nav ul li a:hover {

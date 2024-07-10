@@ -1,0 +1,66 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+    margin: 0 auto 20px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+} 
+
+#text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 20px; 
+    background-image: url(tes.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    font-size: 4rem;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ccc;
+    transition: all 3s ease;
+    padding: 0 15px;
+}
+label {
+    position: absolute;
+    cursor: text;
+    z-index: 2;
+    top: 13px;
+    left: 475px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 0 10px;
+    color: #999;
+    transition: all.3s ease;
+}
+
+input:focus + label,
+input:valid + label{
+    font-size: 11px;
+    top: -5px;
+}
+input:focus + label {
+    color: rgb(0, 0, 0);
+}
+
+input:focus {
+    border-color: blue;
+    outline: 1px solid blue;
+}

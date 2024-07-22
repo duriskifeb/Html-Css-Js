@@ -133,7 +133,7 @@ button[type="submit"]:hover {
   text-align: center;
   visibility: hidden;
   width: 100vw;
-}
+} 
 
 .container > div {
   left: 0;
@@ -148,7 +148,7 @@ button[type="submit"]:hover {
 
 .two {
   font-size: 1.2rem;
-  font-weight: lighter;
+  font-weight: 700;
 }
 
 .three {

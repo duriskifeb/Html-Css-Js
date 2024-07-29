@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
     cancelButtonColor: "#d33",
     confirmButtonText: "Yes",
     cancelButtonText: "No",
-  }).then((result) => {
+  }).then((result) => {   
     if (result.isConfirmed) {
       document.querySelector(".song").play();
       animationTimeline();
@@ -20,6 +20,7 @@ window.addEventListener("load", () => {
     }
   });
 });
+
 
 const animationTimeline = () => {
   // split chars that needs  to be animted individually
@@ -44,11 +45,11 @@ const animationTimeline = () => {
   const ideaTextTransLeave = {
     opacity: 0,
     y: 20,
-    rotationY: 5,
+    rotationY: 5,   
     skewY: "-15deg",
   };
 
-  // animation timeline
+  // animation timeline 
   const tl = new TimelineMax();
 
   tl.to(".container", 0.6, {

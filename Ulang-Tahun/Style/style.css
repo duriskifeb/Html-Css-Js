@@ -153,6 +153,8 @@ button[type="submit"]:hover {
 
 .three {
   font-size: 3rem;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 .four .text-box {

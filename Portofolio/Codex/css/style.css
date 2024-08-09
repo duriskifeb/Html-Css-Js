@@ -191,6 +191,7 @@ nav button {
 }
 
 /* ennd  */
+/* post statart */
 
 .post-thumbnail{
   border-radius: var(--card-border-radius-5) 0;
@@ -320,4 +321,4 @@ footer ul a:hover {
   border-top: 2px solid var(--color-bg);
   margin-top: 4rem;
   font-size: 24px;
-}
+} 

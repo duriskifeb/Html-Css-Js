@@ -269,7 +269,8 @@ footer{
   width: fit-content;
   margin-bottom: 5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   gap: 1.2rem;
 }
 
@@ -287,10 +288,13 @@ footer{
   color: var(--color-bg);
 }
 
-.footer-container{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.footer-container {
+  display: flex;
+  justify-content: center; /* Mengatur agar konten berada di tengah secara horizontal */
+  align-items: center; /* Mengatur agar konten berada di tengah secara vertikal */
+  gap: 4rem; /* Memberikan jarak antar item */
 }
+
 
 footer h4{
   color: var(--color-white);
@@ -315,4 +319,5 @@ footer ul a:hover {
   padding: 1.5rem 0;
   border-top: 2px solid var(--color-bg);
   margin-top: 4rem;
+  font-size: 24px;
 }

@@ -322,3 +322,30 @@ footer ul a:hover {
   margin-top: 4rem;
   font-size: 24px;
 } 
+
+/* media queirs */
+/* === general ==== */
+
+@media screen and (max-width: 1024px) {
+  container{
+    width: var(--container-width-md);
+  }
+
+  h2{
+    font-size: 1.6rem;
+  }
+  h3{
+    font-size: 1.2rem;
+  }
+  h5{
+    font-size: 0.8rem;
+  }
+  /* ======nav======= */
+  nav button {
+    display: inline-block;
+    font-size: 1.5rem;
+    background: transparent;
+    color: var(--color-white);
+    cursor: pointer;
+  }
+}
